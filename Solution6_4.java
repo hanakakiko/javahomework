@@ -14,6 +14,7 @@ public class Solution6_4 {
         Scanner cin = new Scanner(System.in);
         System.out.print("请输入一个整数：");
         int num = cin.nextInt();
+        cin.close();
         reverse(num);
     }
 }
