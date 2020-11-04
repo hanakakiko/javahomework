@@ -15,6 +15,7 @@ public class Solution6_17 {
         System.out.print("Enter n:");
         Scanner cin = new Scanner(System.in);
         int n = cin.nextInt();
+        cin.close();
         printMatrix(n);
     }
 }
