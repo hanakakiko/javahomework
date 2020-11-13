@@ -1,3 +1,5 @@
+package javahomework3;
+
 import java.util.Arrays;
 
 public class Solution13_13 {

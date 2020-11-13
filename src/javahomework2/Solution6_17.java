@@ -1,3 +1,5 @@
+package javahomework2;
+
 import java.util.Scanner;
 
 public class Solution6_17 {
@@ -15,7 +17,6 @@ public class Solution6_17 {
         System.out.print("Enter n:");
         Scanner cin = new Scanner(System.in);
         int n = cin.nextInt();
-        cin.close();
         printMatrix(n);
     }
 }

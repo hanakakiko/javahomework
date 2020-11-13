@@ -1,3 +1,5 @@
+package javahomework3;
+
 import java.util.Date;
 
 public class Solution9_7 {
