@@ -1,3 +1,5 @@
+package javahomework2;
+
 import java.util.Scanner;
 
 public class Solution8_2 {
@@ -18,7 +20,6 @@ public class Solution8_2 {
                 m[i][j]=cin.nextDouble();
             }
         }
-        cin.close();
         System.out.println("Sum of the elements in the major diagonal is "+sumMajorDiagonal(m));
     }
 }

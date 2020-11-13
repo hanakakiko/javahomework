@@ -1,3 +1,5 @@
+package javahomework2;
+
 import java.util.Scanner;
 
 public class Solution7_10 {
@@ -19,7 +21,6 @@ public class Solution7_10 {
             double v = cin.nextDouble();
             array[i]=v;
         }
-        cin.close();
         System.out.println("该数组中最小元素的下标为"+indexOfSmallestElement(array)+"（下标从0开始）");
     }
 }
